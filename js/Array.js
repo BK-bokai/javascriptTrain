@@ -39,5 +39,3 @@ B_arr[7]=12;
 console.log(B_arr);
 
 
-//判斷是否為陣列
-console.log(Array.isArray(B_arr));

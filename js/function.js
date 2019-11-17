@@ -74,11 +74,10 @@ console.log(window.Aaron)
 function person ()
 {
     var Perla = "美女";//區域
-    Bruce = '帥哥哥';//???
-}
-
-(function(){
     Bruce = '帥哥哥';//全域
-  })();
+}
+person();
+
+
 console.log(window.Perla)
-console.log(Bruce)
+console.log(window.Bruce)
